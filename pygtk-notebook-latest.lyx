@@ -1,5 +1,5 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
-\lyxformat 345
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass book
@@ -79,18 +79,26 @@
 \end_preamble
 \options twoside
 \use_default_options false
+\maintain_unincluded_children false
 \language english
+\language_package default
 \inputencoding utf8
+\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize 10
 \spacing single
 \use_hyperref false
@@ -98,31 +106,43 @@
 \use_geometry true
 \use_amsmath 1
 \use_esint 0
+\use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\use_refstyle 0
 \branch FirstEdition
 \selected 0
+\filename_suffix 0
 \color #faf0e6
 \end_branch
 \branch SecondEdition
 \selected 0
+\filename_suffix 0
 \color #aaffff
 \end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
 \paperwidth 20.95cm
 \paperheight 27.31cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
+\paragraph_indentation default
 \quotes_language english
 \papercolumns 1
 \papersides 2
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
@@ -267,7 +287,7 @@ thispagestyle{empty}
 \begin_inset space \hfill{}
 \end_inset
 
-Version 0.12 August 19, 2010
+Version 0.13 October 9, 2012
 \end_layout
 
 \begin_layout Standard
@@ -585,6 +605,21 @@ reference "sec:gtk.Builder-Translation"
 
 \end_layout
 
+\begin_layout Subsection*
+Version 0.13
+\end_layout
+
+\begin_layout Itemize
+Fixed added notes about using math.degrees and math.radians 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Radians and Degrees"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 PyGTK Introduction
 \end_layout
@@ -596,6 +631,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -793,7 +829,7 @@ gtk.main()
 If you do not call the 
 \emph on
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -832,7 +868,7 @@ Adding a label to a window is good and well if not useless.
  To add a widget to a box, or a box to another box the 
 \emph on
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1325,7 +1361,7 @@ name "sub:Widgets - Buttons"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1421,7 +1457,7 @@ name "sub:Widgets - RadioButton"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1544,7 +1580,7 @@ name "sub:Widgets - Toggle Buttons"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1554,7 +1590,7 @@ gtk!ToggleButton
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1675,7 +1711,7 @@ name "sub:Widgets - Check Buttons"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1845,7 +1881,7 @@ name "sub:Widgets - Labels"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1926,7 +1962,7 @@ name "sub:Widgets - Text-Entries"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1936,7 +1972,7 @@ gtk!Text Entry
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -1946,7 +1982,7 @@ gtk!Entry
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -2511,7 +2547,7 @@ name "sub:Widgets - MessageDialog"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -2521,7 +2557,7 @@ MessageDialog
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -2907,7 +2943,7 @@ name "sub:Widgets - SpinButton"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -2917,7 +2953,7 @@ Spin Buttons
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -3391,7 +3427,7 @@ name "sub:Widgets - Statusbar"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -3401,7 +3437,7 @@ Statusbars
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -3655,6 +3691,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -3682,7 +3719,7 @@ Drag and Drop
 
 \begin_layout Standard
 I will not be writing very much about drag and drop
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -4520,7 +4557,7 @@ List Boxes - gtk.TreeView
 
 \begin_layout Standard
 A list box
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -4532,7 +4569,7 @@ list box
  in PyGTK is a little more difficult then programming one on Windows with
  winforms.
  With PyGTK you must use a TreeView
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -4552,7 +4589,7 @@ gtk!TreeView
 A treeview takes the form of gtk.TreeView(model).
  The model is the type of the item being stored.
  What will be used here is gtk.ListStore(type)
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -4593,7 +4630,7 @@ treeview.set_model(liststore)
 
 \begin_layout Standard
 Now, to make this useful a CellRenderer
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -4614,7 +4651,7 @@ cell = gtk.CellRendererText()
 The cell is what is used to display the data from the treeview model (liststore)
  to the user.
  The cell is then added to a gtk.TreeViewColumn
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5186,7 +5223,7 @@ Status Icons
 
 \begin_layout Standard
 Status Icons
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5207,7 +5244,7 @@ Status Icon
 
 \begin_layout Standard
 Creating a status icons
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5354,7 +5391,7 @@ def message(data=None):
 
 \begin_layout LyX-Code
   msg=gtk.MessageDialog
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5364,7 +5401,7 @@ Message Dialog
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5426,7 +5463,7 @@ def make_menu(event_button, event_time, data=None):
 
 \begin_layout LyX-Code
   menu = gtk.Menu()
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5440,7 +5477,7 @@ gtk!Menu
 
 \begin_layout LyX-Code
   open_item = gtk.MenuItem("Open App")
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5566,7 +5603,7 @@ File choosers
 
 \begin_layout Standard
 File choosers
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5586,7 +5623,7 @@ gtk.FileChooserDialog
 
 \begin_layout Standard
 The 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5596,7 +5633,7 @@ gtk!FileChooserDialog
 \end_inset
 
 FileChooserDialog
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5610,7 +5647,7 @@ File Chooser!FileChooserDialog
  It is created with a few options and then is run returning succuss or failure.
  To start off here is a GUI with two buttons and a file filter declard that
  will be used to launch the file chooser and save dialog.
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5620,7 +5657,7 @@ File Filter
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5630,7 +5667,7 @@ File Chooser!FileFilter
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5749,7 +5786,7 @@ Then the GTK window is created.
 
 \begin_layout Standard
 Now to focus on on the details of filechooser dialogs
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5863,7 +5900,7 @@ Select a File
 
 .
  The action type of the dialog is set to save using gtk.FILE_CHOOSER_ACTION_SAVE
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5912,7 +5949,7 @@ SAVE
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5963,7 +6000,7 @@ SAVE
 .
  The buttons are set with a tuple.
  The button uses the stock cancel using the gtk.RESPONSE_CANCEL
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -5986,7 +6023,7 @@ CANCEL
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6009,7 +6046,7 @@ CANCEL
 \end_inset
 
  and the stock save button that uses the gtk.RESPONSE_OK
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6032,7 +6069,7 @@ OK
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6249,7 +6286,7 @@ gtk.FileChooserButton
 
 \begin_layout Standard
 The gtk.FileChooserButton
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6259,7 +6296,7 @@ gtk!FileChooserButton
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6419,7 +6456,7 @@ To retrieve the selected file from a FileChooserButton it must connect the
 selection-changed
 \shape default
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6681,7 +6718,7 @@ def on_save_clicked(widget, file_filter=None):
 This is a simple funtion that takes a file filter as an argument and sets
  it as the filter for Windows save dialog.
  To use and display the save dialog the win32gui.GetSaveFileNameW
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6691,7 +6728,7 @@ GetSaveFileNameW
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6701,7 +6738,7 @@ File Chooser!GetSaveFileNameW
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6750,7 +6787,7 @@ Test Save Data
 
 \begin_layout Standard
 The GetOpenFileNameW
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6760,7 +6797,7 @@ File Chooser!GetOpenFileNameW
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6770,7 +6807,7 @@ win32gui!GetOpenFileNameW
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -6866,7 +6903,7 @@ name "sec:Glade-3"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -7235,7 +7272,7 @@ aboutdialog1
 
 \begin_layout Standard
 A PyGTK program interacts with the created glade file using 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -7554,7 +7591,7 @@ Loading Images
 
 \begin_layout Standard
 To load an image with PyGTK an instance of the gtk.Image
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -7564,7 +7601,7 @@ gtk!Image
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -7779,7 +7816,7 @@ Tooltips
 
 \begin_layout Standard
 A tooltip
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -7820,7 +7857,7 @@ For more fancy tooltips a custom tooltip must be created.
  To do this the has_tooltip property must be set to True.
  Then the widget that is to display the custom tooltip must connect to the
  query-tooltip
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -7837,7 +7874,7 @@ gtk!Tooltip!query-tooltip
 
 \begin_layout Standard
 Here is an example
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -7973,6 +8010,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -8000,7 +8038,7 @@ Introduction
 
 \begin_layout Standard
 Welcome to the chapter on cairo
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8152,7 +8190,7 @@ With a context set it is now possible to draw or perform other actions.
 context.set_line_width(15)
 \emph default
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8197,7 +8235,7 @@ set_line
 
 \begin_layout Standard
 Next, using the contexts move_to
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8222,7 +8260,7 @@ to
  method moves the position of the brush to the position specified; which
  in the line is x position 200 and y position 150.
  X coordinates
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8340,7 +8378,7 @@ http://www.cairographics.org/manual/cairo-Image-Surfaces.html
  and they are:
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.FORMAT_ARGB32 - each pixel is a 32-bit quantity, with alpha in the
  upper 8 bits, then red, then green, then blue.
@@ -8349,19 +8387,19 @@ cairo.FORMAT_ARGB32 - each pixel is a 32-bit quantity, with alpha in the
  (That is, 50% transparent red is 0x80800000, not 0x80ff0000.)
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.FORMAT_RGB24 - each pixel is a 32-bit quantity, with the upper 8 bits
  unused.
  Red, Green, and Blue are stored in the remaining 24 bits in that order.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.FORMAT_A8 - each pixel is a 8-bit quantity holding an alpha value.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.FORMAT_A1 - each pixel is a 1-bit quantity holding an alpha value.
  Pixels are packed together into 32-bit quantities.
@@ -8392,25 +8430,25 @@ Fill this section out a little with some commentary and a very very small
 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.ImageSurface(cairo.FORMAT_ARGB32, WIDTH, HEIGHT) - Use to render to
  memory buffers.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.PDFSurface("drawings.pdf", WIDTH, HEIGHT) - Renders to the specified
  PDF file.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.PSSurface("drawings.ps", WIDTH, HEIGHT) - Renders to the specified Postscrip
 t file.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 cairo.SVGSurface("drawings.svg", WIDTH, HEIGHT) - Renders to the specified
  SVG file.
@@ -8602,7 +8640,7 @@ Now if you follow that lines that were created, you will notice only the
  x1 and y1, but instead the 
 \emph on
 close_path
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8638,7 +8676,7 @@ stroke
 \begin_layout Standard
 Also in the draw_rectangle function the context is set to draw these lines
  in red using the set_source_rgb(red, green, blue)
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8674,7 +8712,7 @@ rgb
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8684,7 +8722,7 @@ cairo!color
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8735,7 +8773,7 @@ The draw_triangle method is similar to the draw_rectangle function in that
 rel_line_to
 \emph default
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8777,7 +8815,7 @@ to
 
 \begin_layout Standard
 Like in the rectangle function, the triangle function sets the color
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8845,7 +8883,7 @@ The draw_circle function introduces the a new method;
 arc
 \emph default
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -8990,12 +9028,28 @@ radians=degree*(math.pi/180)
 \end_layout
 
 \begin_layout Standard
+You can also use.
+\end_layout
+
+\begin_layout LyX-Code
+radians = math.radians(degree)
+\end_layout
+
+\begin_layout Standard
 If you want to know what the degrees of a radian is that is simple as well.
  Switch the degree with the radian and divide 180 by PI.
 \end_layout
 
 \begin_layout LyX-Code
 degree=radians*(180/math.pi)
+\end_layout
+
+\begin_layout Standard
+You can also use.
+\end_layout
+
+\begin_layout LyX-Code
+degree = math.degrees(radian)
 \end_layout
 
 \begin_layout Subsection
@@ -9514,7 +9568,7 @@ http://www.sicem.biz/personal/lgs/docs/docs/gobject-python/gobject-tutorial.html
 \end_inset
 
  the expose_event
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -9537,7 +9591,7 @@ event
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -9564,7 +9618,7 @@ event
 do_expose_event
 \emph default
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -9965,6 +10019,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -10675,6 +10730,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -11598,7 +11654,7 @@ gobject.timeout_add(interval,callback) is a function that will call the function
  the callback function returns False.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 Interval The number of seconds between calls.
  Eg.
@@ -11606,7 +11662,7 @@ Interval The number of seconds between calls.
  That is pretty simple
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 Callback The function that will be called at each interval.
 \end_layout
@@ -11652,7 +11708,7 @@ Gnome Menus (.desktop files)
 
 \begin_layout Standard
 If an application is to be added to the main menu it will need an appname.desktop
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -11673,7 +11729,7 @@ Keys
 
 \begin_layout Standard
 The way that a .desktop file holds information is with keys
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -11689,7 +11745,7 @@ desktop!keys
 
 \begin_layout Itemize
 Type
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -11703,7 +11759,7 @@ desktop!Type
 
 \begin_layout Itemize
 Name
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -11717,7 +11773,7 @@ desktop!Name
 
 \begin_layout Itemize
 Exec
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -11731,7 +11787,7 @@ desktop!Exec
 
 \begin_layout Itemize
 URL
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -11955,7 +12011,7 @@ Installing and Using .desktop files
 
 \begin_layout Standard
 Creating a .desktop file without installing
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -12517,6 +12573,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -12576,7 +12633,7 @@ Playbin
 
 \begin_layout Standard
 The playbin
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -12673,7 +12730,7 @@ playbin
 
  factory.
  You create this using the gst.element_make_factory(factory, element_name)
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -12839,7 +12896,7 @@ Bus - watching for GStreamer signals
 
 \begin_layout Standard
 The GStreamer 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -12849,7 +12906,7 @@ GStreamer!bus
 \end_inset
 
 bus
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -17197,6 +17254,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -17237,7 +17295,7 @@ name "des:ObjectPath-An-application"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -17263,7 +17321,7 @@ name "des:BusName-The-name"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -17286,7 +17344,7 @@ name "des:Interface-Is-used"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -18314,7 +18372,7 @@ Finding Exposed Methods
 \end_layout
 
 \begin_layout Standard
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -18324,7 +18382,7 @@ DBus!Finding Exposed Methods
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -18334,7 +18392,7 @@ DBus!Introspection
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -18482,62 +18540,62 @@ playPause
 It is important to know what the different types are so here is a list.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 b dbus.Boolean, bool
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 d dbus.Double, float
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 g dbus.Signature
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 i dbus.Int32, int
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 n dbus.Int16
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 o dbus.ObjectPath
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 q dbus.UInt16
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 s dbus.String, dbus.UTF8String, str, unicode
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 t dbus.UInt64
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 u dbus.UInt32
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 x dbus.Int64, long
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 y dbus.Byte
 \end_layout
@@ -18546,31 +18604,31 @@ y dbus.Byte
 DBus also supports for container types.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 ax dbus.Array, list - a is an array and the x is the type that is used.
  X here means it is an array of dbus.UInt64/long
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 ay dbus.ByteArray, str - Is a more effienct array
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 (types) dbus.Struct, tuple - The signature of is either None or a string
  representing the contents of the struct.
  The signature '(iis)' would be used for two integers and a string.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 a{xy} dbus.Dictionary, dict - a is the key and y is the value.
  So a{si} would be a dictionary with strings for keys and integers for values.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 v variants
 \end_layout
@@ -18686,6 +18744,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -19137,7 +19196,7 @@ name "sub:clutter - Actor - Text"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -19804,7 +19863,7 @@ name "sub:clutter - Timelines"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -19917,7 +19976,7 @@ name "sub:clutter - Alpha"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -20157,7 +20216,7 @@ name "sub:clutter - BehaviourOpacity"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
@@ -20351,7 +20410,7 @@ name "sub:clutter - BehaviourRotate"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
@@ -20575,7 +20634,7 @@ name "sub:clutter-BehaviourScale"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -20613,7 +20672,7 @@ name "sub:clutter - BehaviourDepth"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status open
 
 \begin_layout Plain Layout
@@ -20780,7 +20839,7 @@ name "sec:clutter - Groups-and-Positioning"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -20936,6 +20995,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -22946,6 +23006,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -24300,7 +24361,7 @@ name "sec:Translations - Locale Lists"
 \end_inset
 
 
-\begin_inset Index
+\begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
@@ -24504,6 +24565,7 @@ hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
+use_makebox 0
 width "100col%"
 special "none"
 height "1in"
@@ -25736,467 +25798,467 @@ begin{multicols}{2}
 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_ABOUT Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_ADD
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_APPLY
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_BOLD 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_CANCEL 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_CDROM 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_CLEAR 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_CLOSE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_COLOR_PICKER Available in GTK+ 2.2 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_CONVERT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_CONNECT Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_COPY 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_CUT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DELETE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DIALOG_AUTHENTICATION Available in GTK+ 2.4 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DIALOG_ERROR 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DIALOG_INFO 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DIALOG_QUESTION 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DIALOG_WARNING
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DIRECTORY Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DISCONNECT Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DND 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_DND_MULTIPLE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_EDIT Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_EXECUTE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_FILE Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_FIND 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_FIND_AND_REPLACE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_FLOPPY 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_FULLSCREEN Available in GTK+ 2.8 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GOTO_BOTTOM 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GOTO_FIRST 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GOTO_LAST 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GOTO_TOP 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GO_BACK 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GO_DOWN 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GO_FORWARD 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_GO_UP 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_HARDDISK Available in GTK+ 2.4 and above
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_HELP 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_HOME 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_INDENT Available in GTK+ 2.4 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_INDEX 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_INFO Available in GTK+ 2.8 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_ITALIC 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_JUMP_TO
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_JUSTIFY_CENTER 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_JUSTIFY_FILL 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_JUSTIFY_LEFT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_JUSTIFY_RIGHT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_LEAVE_FULLSCREEN Available in GTK+ 2.8 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_FORWARD Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_NEXT Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_PAUSE Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_PLAY RTL version is Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_PREVIOUS Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_RECORD Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_REWIND Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MEDIA_STOP Available in GTK+ 2.6 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_MISSING_IMAGE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_NETWORK Available in GTK+ 2.4 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_NEW 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_NO 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_OK 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_OPEN 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_PASTE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_PREFERENCES 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_PRINT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_PRINT_PREVIEW 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_PROPERTIES 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_QUIT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_REDO
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_REFRESH 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_REMOVE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_REVERT_TO_SAVED
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_SAVE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_SAVE_AS 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_SELECT_COLOR 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_SELECT_FONT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_SORT_ASCENDING 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_SORT_DESCENDING 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_SPELL_CHECK 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_STOP 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_STRIKETHROUGH 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_UNDELETE
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_UNDERLINE 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_UNDO
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_UNINDENT Available in GTK+ 2.4 and above.
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_YES 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_ZOOM_100 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_ZOOM_FIT 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_ZOOM_IN 
 \end_layout
 
-\begin_layout List
+\begin_layout Labeling
 \labelwidthstring 00.00.0000
 gtk.STOCK_ZOOM_OUT
 \end_layout
@@ -26601,6 +26663,7 @@ http://www.learningpython.com/2006/12/03/translating-your-pythonpygtk-applicatio
 \begin_layout Standard
 \begin_inset CommandInset index_print
 LatexCommand printindex
+type "idx"
 
 \end_inset
 
