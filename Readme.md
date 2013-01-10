@@ -1,3 +1,7 @@
+# Download
+[pygtk-notebook-latest-0.13.pdt](http://files.majorsilence.com/pygtkbook/pygtk-notebook-latest-0.13.pdf)
+
+# Info
 Note: Everything in this book is for gtk 2.* and does not cover 3.*.  I am very interested in updating this
 to work with pygobject (gtk3) and there is a branch for that if anyone wants to send in changes.
 
