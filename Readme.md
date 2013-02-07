@@ -1,5 +1,5 @@
 # Download
-[pygtk-notebook-latest-0.13.pdt](http://files.majorsilence.com/pygtkbook/pygtk-notebook-latest-0.13.pdf)
+[pygtk-notebook-latest-0.13.pdf](http://files.majorsilence.com/pygtkbook/pygtk-notebook-latest-0.13.pdf)
 
 # Info
 Note: Everything in this book is for gtk 2.* and does not cover 3.*.  I am very interested in updating this
